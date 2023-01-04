@@ -1,0 +1,11 @@
+#problem for square_digits codewars 
+
+def square_digits(num):
+    
+    num = str(num)
+    total = ""
+    for x in num:
+        total+= str(int(x)**2)
+        
+    return int(total)
+    
