@@ -1,0 +1,5 @@
+# solution for convert boolean values to strings 'Yes' or 'No'. codewars
+def bool_to_word(boolean):
+    if boolean == True:
+        return 'Yes'
+    return 'No'
